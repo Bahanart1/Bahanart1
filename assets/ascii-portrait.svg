@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="444" height="444" viewBox="0 0 444 444" role="img" aria-label="ASCII portrait of bahanart1">
+<style>@media (prefers-reduced-motion: reduce){text{opacity:1 !important}.cur{opacity:0 !important}}</style>
 <rect width="100%" height="100%" rx="8" fill="#0b0f14"/>
 <g font-family="'SFMono-Regular','Fira Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#3ddc84" xml:space="preserve">
 <text y="90.0" opacity="0"><tspan x="187.0" textLength="35.0">;;;,;;;</tspan><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.40s" fill="freeze"/></text>
@@ -36,5 +37,5 @@
 <text y="410.0" opacity="0"><tspan x="72.0" textLength="295.0">:,,,,,::''''',:::''::'''::':'''''''''::,,,,,,::''::,,:::,,,</tspan><animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.23s" fill="freeze"/></text>
 <text y="420.0" opacity="0"><tspan x="72.0" textLength="295.0">:,:,,:::''''',:,:':::'''''''''''''''':,,:,,,,:'''::,,:::,,,</tspan><animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.29s" fill="freeze"/></text>
 <text y="430.0" opacity="0"><tspan x="72.0" textLength="295.0">:,:,,:::''''',,,:::::'''''''''''''''':,::::,,,'''::,:::::,,</tspan><animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.34s" fill="freeze"/></text>
-<rect x="12" y="12" width="10" height="10" fill="#3ddc84" opacity="0.9"><animate attributeName="y" from="12" to="432" dur="2.40s" fill="freeze"/><animate attributeName="opacity" values="0.9;0" dur="0.3s" begin="2.40s" fill="freeze"/></rect>
+<rect class="cur" x="12" y="12" width="10" height="10" fill="#3ddc84" opacity="0.9"><animate attributeName="y" from="12" to="432" dur="2.40s" fill="freeze"/><animate attributeName="opacity" values="0.9;0" dur="0.3s" begin="2.40s" fill="freeze"/></rect>
 </g></svg>

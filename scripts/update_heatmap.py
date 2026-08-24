@@ -79,6 +79,8 @@ def render(days):
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         f'role="img" aria-label="Contribution heatmap of {USER}: {total} contributions in the last year">',
+        # hareket azaltma tercihinde animasyonsuz tam görünüm
+        '<style>@media (prefers-reduced-motion: reduce){rect{opacity:1 !important}}</style>',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
         f'<g font-family="\'SFMono-Regular\',\'Fira Code\',Consolas,\'Liberation Mono\',Menlo,monospace">',
         f'<text x="{PAD_L}" y="22" font-size="12" fill="{TITLE}">$ git log --graph --author={USER}</text>',

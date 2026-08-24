@@ -159,6 +159,9 @@ def render(grid, out_path: str):
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:.0f}" height="{h:.0f}" '
         f'viewBox="0 0 {w:.0f} {h:.0f}" role="img" aria-label="ASCII portrait of bahanart1">',
+        # hareket azaltma tercihinde animasyonsuz tam görünüm
+        '<style>@media (prefers-reduced-motion: reduce){'
+        'text{opacity:1 !important}.cur{opacity:0 !important}}</style>',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
         f'<g font-family="\'SFMono-Regular\',\'Fira Code\',Consolas,\'Liberation Mono\',Menlo,monospace" '
         f'font-size="{FONT_SIZE}" fill="{FG}" xml:space="preserve">',
@@ -184,7 +187,7 @@ def render(grid, out_path: str):
     # yazım imleci: satırlarla birlikte aşağı iner, sonda söner
     total = rows * per_row
     parts.append(
-        f'<rect x="12" y="12" width="{CHAR_W * 2:.0f}" height="{LINE_H:.0f}" fill="{FG}" opacity="0.9">'
+        f'<rect class="cur" x="12" y="12" width="{CHAR_W * 2:.0f}" height="{LINE_H:.0f}" fill="{FG}" opacity="0.9">'
         f'<animate attributeName="y" from="12" to="{12 + rows * LINE_H:.0f}" dur="{total:.2f}s" fill="freeze"/>'
         f'<animate attributeName="opacity" values="0.9;0" dur="0.3s" begin="{total:.2f}s" fill="freeze"/></rect>'
     )

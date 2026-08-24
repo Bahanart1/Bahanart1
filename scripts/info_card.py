@@ -11,21 +11,30 @@ DIM = "#8b949e"
 ACC = "#3ddc84"
 KEY = "#58a6ff"
 
+# CV'den; kişisel iletişim bilgileri bilinçli olarak dışarıda bırakıldı
 FIELDS = [
-    ("OS", "Web / Frontend"),
-    ("Host", "nartdeveloper.com"),
-    ("Kernel", "Next.js + React"),
-    ("Shell", "TypeScript"),
-    ("Motion", "GSAP + ScrollTrigger"),
-    ("UI", "Tailwind CSS"),
-    ("Tools", "Figma · Vercel · Git"),
-    ("Uptime", "since 2020"),
-    ("Repos", "6 public"),
+    ("Name", "Muammer Baha Şenel"),
+    ("Role", "Software Engineer"),
+    ("Company", "Befior Soft · co-founder"),
+    ("Edu", "İstinye Üniv. · SE 2026"),
+    ("Frontend", "React · Next.js · TypeScript"),
+    ("Backend", "ASP.NET Core · Laravel · Node"),
+    ("UI", "Tailwind · Framer Motion · GSAP"),
+    ("DB", "PostgreSQL · MySQL · Supabase"),
+    ("Web", "befior.com"),
 ]
 
 PALETTE = ["#ff5f56", "#ffbd2e", "#3ddc84", "#58a6ff", "#bc8cff", "#39d3c8", "#c9d1d9", "#8b949e"]
 
 MONO = "'SFMono-Regular','Fira Code',Consolas,'Liberation Mono',Menlo,monospace"
+
+# hareket azaltma tercihinde animasyonsuz tam görünüm
+REDUCED_STYLE = (
+    '<style>@media (prefers-reduced-motion: reduce){'
+    'text,g,rect{opacity:1 !important;transform:none !important}'
+    '.cur{opacity:0 !important}'
+    '}</style>'
+)
 
 LINE_H = 26
 TOP = 78          # "$ neofetch" satırından sonra içerik başlangıcı
@@ -45,7 +54,8 @@ def fade_line(y, begin, inner):
 
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-    f'role="img" aria-label="bahanart1 info card">',
+    f'role="img" aria-label="Muammer Baha Şenel — software engineer info card">',
+    REDUCED_STYLE,
     f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
     f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="none" stroke="#1c2530"/>',
     # pencere başlığı noktaları
@@ -97,7 +107,7 @@ for i, c in enumerate(PALETTE):
 cy = py + 34
 parts.append(
     f'<text x="24" y="{cy}" fill="{ACC}">$</text>'
-    f'<rect x="40" y="{cy - 11}" width="8" height="14" fill="{FG}" opacity="0">'
+    f'<rect class="cur" x="40" y="{cy - 11}" width="8" height="14" fill="{FG}" opacity="0">'
     f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.01;0.02;0.5;0.51" dur="2.4s" '
     f'begin="{pb + 0.6:.2f}s" repeatCount="indefinite"/></rect>'
 )
