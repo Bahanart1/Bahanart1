@@ -17,11 +17,16 @@ jobs:
       - name: Katkı verisini çek ve heatmap'i yeniden üret
         run: python3 scripts/update_heatmap.py
 
+      - name: Dil dağılımını çek ve stack barlarını yeniden üret
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/stack_bars.py
+
       - name: Değişiklik varsa commit'le
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json assets/contrib-heatmap.svg
+          git add data/ assets/contrib-heatmap.svg assets/stack.svg
           git diff --cached --quiet || {
             git commit -m "chore: refresh contribution heatmap [skip ci]"
             git push

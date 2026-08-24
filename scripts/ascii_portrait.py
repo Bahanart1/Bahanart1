@@ -163,6 +163,7 @@ def render(grid, out_path: str):
         '<style>@media (prefers-reduced-motion: reduce){'
         'text{opacity:1 !important}.cur{opacity:0 !important}}</style>',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
+        f'<rect x="0.5" y="0.5" width="{w - 1:.0f}" height="{h - 1:.0f}" rx="8" fill="none" stroke="#1c2530"/>',
         f'<g font-family="\'SFMono-Regular\',\'Fira Code\',Consolas,\'Liberation Mono\',Menlo,monospace" '
         f'font-size="{FONT_SIZE}" fill="{FG}" xml:space="preserve">',
     ]

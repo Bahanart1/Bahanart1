@@ -82,6 +82,7 @@ def render(days):
         # hareket azaltma tercihinde animasyonsuz tam görünüm
         '<style>@media (prefers-reduced-motion: reduce){rect{opacity:1 !important}}</style>',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
+        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="none" stroke="#1c2530"/>',
         f'<g font-family="\'SFMono-Regular\',\'Fira Code\',Consolas,\'Liberation Mono\',Menlo,monospace">',
         f'<text x="{PAD_L}" y="22" font-size="12" fill="{TITLE}">$ git log --graph --author={USER}</text>',
         f'<text x="{w - 12}" y="22" font-size="11" text-anchor="end" fill="{LEVELS[3]}">{total} contributions · last year</text>',
