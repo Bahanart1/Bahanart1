@@ -8,7 +8,7 @@
 
 <img src="assets/ascii-portrait.svg" width="404" alt="ASCII portrait of bahanart1" /><img src="assets/info-card.svg" width="391" alt="neofetch-style info card" />
 
-<img src="assets/career.svg" width="404" alt="career timeline as git log" /><img src="assets/stack.svg" width="391" alt="language breakdown across repos" />
+<img src="assets/career.svg" width="404" alt="career timeline as git log" /><img src="assets/stack.svg?v=2" width="391" alt="language breakdown across repos" />
 
 <img src="assets/contrib-heatmap.svg" width="795" alt="animated contribution heatmap" />
 
