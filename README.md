@@ -18,6 +18,10 @@
 
 <br />
 
-<sub><a href="https://befior.com">befior.com</a> · built with hand-rolled animated SVGs, refreshed daily by <a href=".github/workflows/update-heatmap.yml">a cron job</a></sub>
+<b>Muammer Baha Şenel</b> — Software Engineer · Co-founder @ <a href="https://befior.com">Befior Soft</a> · İstanbul
+
+<a href="https://www.linkedin.com/in/muammer-baha-senel/">LinkedIn</a> · <a href="https://befior.com">befior.com</a>
+
+<sub>built with hand-rolled animated SVGs, refreshed daily by <a href=".github/workflows/update-heatmap.yml">a cron job</a></sub>
 
 </div>
