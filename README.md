@@ -10,6 +10,6 @@
 
 <br />
 
-<sub><a href="https://nartdeveloper.com">nartdeveloper.com</a> · built with hand-rolled animated SVGs, refreshed daily by <a href=".github/workflows/update-heatmap.yml">a cron job</a></sub>
+<sub><a href="https://befior.com">befior.com</a> · built with hand-rolled animated SVGs, refreshed daily by <a href=".github/workflows/update-heatmap.yml">a cron job</a></sub>
 
 </div>
