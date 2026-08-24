@@ -10,7 +10,9 @@
 
 <img src="assets/career.svg" width="404" alt="career timeline as git log" /><img src="assets/stack.svg?v=2" width="391" alt="language breakdown across repos" />
 
-<img src="assets/contrib-heatmap.svg" width="795" alt="animated contribution heatmap" />
+<img src="assets/contrib-heatmap.svg?v=2" width="795" alt="animated contribution heatmap with snake" />
+
+<img src="assets/editor.svg" width="404" alt="code editor typing a snippet" /><img src="assets/radar.svg" width="391" alt="skill radar with rotating sweep" />
 
 <img src="assets/projects.svg" width="795" alt="selected projects" />
 

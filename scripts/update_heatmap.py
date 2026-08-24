@@ -18,7 +18,14 @@ OUT = ROOT / "assets" / "contrib-heatmap.svg"
 BG = "#0b0f14"
 TEXT = "#8b949e"
 TITLE = "#c9d1d9"
-LEVELS = ["#151b23", "#0e4429", "#006d32", "#26a641", "#39d353"]
+LEVELS = ["#1e2833", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
+# yılan animasyonu zamanlaması
+SNAKE_START = 2.6   # giriş dalgası bittikten sonra başla
+T_EAT = 19.0        # grid'i baştan sona dolaşma süresi
+T_CYCLE = 22.0      # bekleme dahil tam döngü
+TRAIL = 2.6         # yenen hücrenin karanlık kalma süresi (sn)
+SNAKE_BODY = ["#3ddc84", "#2fbf72", "#27a563", "#1f8b54", "#1a7547", "#15613b", "#104d30"]
 
 CELL = 11
 GAP = 3
@@ -79,8 +86,9 @@ def render(days):
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         f'role="img" aria-label="Contribution heatmap of {USER}: {total} contributions in the last year">',
-        # hareket azaltma tercihinde animasyonsuz tam görünüm
-        '<style>@media (prefers-reduced-motion: reduce){rect{opacity:1 !important}}</style>',
+        # hareket azaltma tercihinde animasyonsuz tam görünüm (yılan ve iz gizlenir)
+        '<style>@media (prefers-reduced-motion: reduce){rect{opacity:1 !important}'
+        '.snake,.eat{display:none}}</style>',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>',
         f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="none" stroke="#1c2530"/>',
         f'<g font-family="\'SFMono-Regular\',\'Fira Code\',Consolas,\'Liberation Mono\',Menlo,monospace">',
@@ -120,6 +128,48 @@ def render(days):
                     f'begin="{begin + 2.2:.2f}s" repeatCount="indefinite"/>'
                 )
             parts.append(cell + "</rect>")
+
+    # --- yılan: boustrophedon hücre dizisi boyunca x/y animasyonu ---
+    # (animateMotion bazı ortamlarda takılıyor; eşit adımlı düz animate güvenilir)
+    pitch = CELL + GAP
+    waypoints = []  # ziyaret sırasıyla (hafta, gün)
+    for wi in range(n_weeks):
+        rows = range(7) if wi % 2 == 0 else range(6, -1, -1)
+        waypoints.extend((wi, wd) for wd in rows)
+    n_wp = len(waypoints)
+
+    # yenen hücre izi: yılan geçince kararır, TRAIL sn sonra geri gelir
+    for idx, (wi, wd) in enumerate(waypoints):
+        x = PAD_L + wi * pitch
+        y = PAD_T + wd * pitch
+        te = max(idx / (n_wp - 1), 0.001)
+        te2 = min(te + TRAIL / T_EAT, 0.998)
+        parts.append(
+            f'<rect class="eat" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
+            f'fill="{BG}" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0.9;0" keyTimes="0;{te:.4f};{te2:.4f}" '
+            f'calcMode="discrete" dur="{T_EAT}s" begin="{SNAKE_START}s" repeatCount="indefinite"/></rect>'
+        )
+
+    def seg_rect(size, color, opacity, delay, cls_extra=""):
+        off = (CELL - size) / 2
+        xs = ";".join(f"{PAD_L + wi * pitch + off:.0f}" for wi, _ in waypoints)
+        ys = ";".join(f"{PAD_T + wd * pitch + off:.0f}" for _, wd in waypoints)
+        b = SNAKE_START + delay
+        return (
+            f'<rect class="snake{cls_extra}" x="{PAD_L + off:.0f}" y="{PAD_T + off:.0f}" '
+            f'width="{size}" height="{size}" rx="3" fill="{color}" opacity="0">'
+            f'<animate attributeName="opacity" values="0;{opacity}" dur="0.01s" begin="{b:.2f}s" fill="freeze"/>'
+            f'<animate attributeName="x" values="{xs}" dur="{T_EAT}s" begin="{b:.2f}s" repeatCount="indefinite"/>'
+            f'<animate attributeName="y" values="{ys}" dur="{T_EAT}s" begin="{b:.2f}s" repeatCount="indefinite"/>'
+            f'</rect>'
+        )
+
+    # baş parıltısı altta, gövde kuyruktan başa doğru üstte
+    parts.append(seg_rect(19, LEVELS[4], "0.16", 0.0))
+    for k in range(len(SNAKE_BODY) - 1, -1, -1):
+        size = CELL - (0 if k < 2 else 1 if k < 4 else 2)
+        parts.append(seg_rect(size, SNAKE_BODY[k], "0.96", k * 0.065))
 
     # alt lejant
     ly = PAD_T + 7 * (CELL + GAP) + 16

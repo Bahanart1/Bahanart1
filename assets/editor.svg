@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="444" height="300" viewBox="0 0 444 300" role="img" aria-label="code editor typing a snippet about Muammer Baha Şenel">
+<style>@media (prefers-reduced-motion: reduce){text{opacity:1 !important}.cur{opacity:0 !important}}</style>
+<rect width="100%" height="100%" rx="8" fill="#0b0f14"/>
+<rect x="0.5" y="0.5" width="443" height="299" rx="8" fill="none" stroke="#1c2530"/>
+<circle cx="22" cy="20" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="20" r="5" fill="#ffbd2e"/>
+<circle cx="58" cy="20" r="5" fill="#27c93f"/>
+<rect x="86" y="8" width="108" height="24" rx="6" fill="#121a24"/>
+<circle cx="102" cy="20" r="3" fill="#3178c6"/>
+<text x="112" y="24" font-family="'SFMono-Regular','Fira Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#c9d1d9">engineer.ts</text>
+<line x1="1" y1="40" x2="443" y2="40" stroke="#1c2530"/>
+<g font-family="'SFMono-Regular','Fira Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="12">
+<text x="34" y="78" text-anchor="end" fill="#3a4654">1</text>
+<text x="34" y="99" text-anchor="end" fill="#3a4654">2</text>
+<text x="34" y="120" text-anchor="end" fill="#3a4654">3</text>
+<text x="34" y="141" text-anchor="end" fill="#3a4654">4</text>
+<text x="34" y="162" text-anchor="end" fill="#3a4654">5</text>
+<text x="34" y="183" text-anchor="end" fill="#3a4654">6</text>
+<text x="34" y="204" text-anchor="end" fill="#3a4654">7</text>
+<text x="34" y="225" text-anchor="end" fill="#3a4654">8</text>
+<text x="34" y="246" text-anchor="end" fill="#3a4654">9</text>
+<text x="52.0" y="78" fill="#ff7b72" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.60s" fill="freeze"/></text>
+<text x="59.3" y="78" fill="#ff7b72" opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.63s" fill="freeze"/></text>
+<text x="66.6" y="78" fill="#ff7b72" opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.66s" fill="freeze"/></text>
+<text x="73.9" y="78" fill="#ff7b72" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.68s" fill="freeze"/></text>
+<text x="81.2" y="78" fill="#ff7b72" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.71s" fill="freeze"/></text>
+<text x="88.5" y="78" fill="#ff7b72" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.74s" fill="freeze"/></text>
+<text x="103.1" y="78" fill="#c9d1d9" opacity="0">{<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.80s" fill="freeze"/></text>
+<text x="117.7" y="78" fill="#d2a8ff" opacity="0">E<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.85s" fill="freeze"/></text>
+<text x="125.0" y="78" fill="#d2a8ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.88s" fill="freeze"/></text>
+<text x="132.3" y="78" fill="#d2a8ff" opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.91s" fill="freeze"/></text>
+<text x="139.6" y="78" fill="#d2a8ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.94s" fill="freeze"/></text>
+<text x="146.9" y="78" fill="#d2a8ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.96s" fill="freeze"/></text>
+<text x="154.2" y="78" fill="#d2a8ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.99s" fill="freeze"/></text>
+<text x="161.5" y="78" fill="#d2a8ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.02s" fill="freeze"/></text>
+<text x="168.8" y="78" fill="#d2a8ff" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.05s" fill="freeze"/></text>
+<text x="183.4" y="78" fill="#c9d1d9" opacity="0">}<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.10s" fill="freeze"/></text>
+<text x="198.0" y="78" fill="#ff7b72" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.16s" fill="freeze"/></text>
+<text x="205.3" y="78" fill="#ff7b72" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.19s" fill="freeze"/></text>
+<text x="212.6" y="78" fill="#ff7b72" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.22s" fill="freeze"/></text>
+<text x="219.9" y="78" fill="#ff7b72" opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.24s" fill="freeze"/></text>
+<text x="234.5" y="78" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.30s" fill="freeze"/></text>
+<text x="241.8" y="78" fill="#a5d6ff" opacity="0">@<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.33s" fill="freeze"/></text>
+<text x="249.1" y="78" fill="#a5d6ff" opacity="0">b<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.36s" fill="freeze"/></text>
+<text x="256.4" y="78" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.38s" fill="freeze"/></text>
+<text x="263.7" y="78" fill="#a5d6ff" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.41s" fill="freeze"/></text>
+<text x="271.0" y="78" fill="#a5d6ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.44s" fill="freeze"/></text>
+<text x="278.3" y="78" fill="#a5d6ff" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.47s" fill="freeze"/></text>
+<text x="285.6" y="78" fill="#a5d6ff" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.50s" fill="freeze"/></text>
+<text x="292.9" y="78" fill="#a5d6ff" opacity="0">/<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.52s" fill="freeze"/></text>
+<text x="300.2" y="78" fill="#a5d6ff" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.55s" fill="freeze"/></text>
+<text x="307.5" y="78" fill="#a5d6ff" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.58s" fill="freeze"/></text>
+<text x="314.8" y="78" fill="#a5d6ff" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.61s" fill="freeze"/></text>
+<text x="322.1" y="78" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.64s" fill="freeze"/></text>
+<text x="329.4" y="78" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.66s" fill="freeze"/></text>
+<text x="336.7" y="78" fill="#8b949e" opacity="0">;<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.69s" fill="freeze"/></text>
+<text x="52.0" y="120" fill="#ff7b72" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.72s" fill="freeze"/></text>
+<text x="59.3" y="120" fill="#ff7b72" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.75s" fill="freeze"/></text>
+<text x="66.6" y="120" fill="#ff7b72" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.78s" fill="freeze"/></text>
+<text x="73.9" y="120" fill="#ff7b72" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.80s" fill="freeze"/></text>
+<text x="81.2" y="120" fill="#ff7b72" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.83s" fill="freeze"/></text>
+<text x="95.8" y="120" fill="#c9d1d9" opacity="0">b<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.89s" fill="freeze"/></text>
+<text x="103.1" y="120" fill="#c9d1d9" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.92s" fill="freeze"/></text>
+<text x="110.4" y="120" fill="#c9d1d9" opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.94s" fill="freeze"/></text>
+<text x="117.7" y="120" fill="#c9d1d9" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.97s" fill="freeze"/></text>
+<text x="132.3" y="120" fill="#8b949e" opacity="0">=<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.03s" fill="freeze"/></text>
+<text x="146.9" y="120" fill="#ff7b72" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.08s" fill="freeze"/></text>
+<text x="154.2" y="120" fill="#ff7b72" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.11s" fill="freeze"/></text>
+<text x="161.5" y="120" fill="#ff7b72" opacity="0">w<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.14s" fill="freeze"/></text>
+<text x="176.1" y="120" fill="#d2a8ff" opacity="0">E<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.20s" fill="freeze"/></text>
+<text x="183.4" y="120" fill="#d2a8ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.22s" fill="freeze"/></text>
+<text x="190.7" y="120" fill="#d2a8ff" opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.25s" fill="freeze"/></text>
+<text x="198.0" y="120" fill="#d2a8ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.28s" fill="freeze"/></text>
+<text x="205.3" y="120" fill="#d2a8ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.31s" fill="freeze"/></text>
+<text x="212.6" y="120" fill="#d2a8ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.34s" fill="freeze"/></text>
+<text x="219.9" y="120" fill="#d2a8ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.36s" fill="freeze"/></text>
+<text x="227.2" y="120" fill="#d2a8ff" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.39s" fill="freeze"/></text>
+<text x="234.5" y="120" fill="#8b949e" opacity="0">(<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.42s" fill="freeze"/></text>
+<text x="241.8" y="120" fill="#8b949e" opacity="0">{<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.45s" fill="freeze"/></text>
+<text x="66.6" y="141" fill="#c9d1d9" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.53s" fill="freeze"/></text>
+<text x="73.9" y="141" fill="#c9d1d9" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.56s" fill="freeze"/></text>
+<text x="81.2" y="141" fill="#c9d1d9" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.59s" fill="freeze"/></text>
+<text x="88.5" y="141" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.62s" fill="freeze"/></text>
+<text x="95.8" y="141" fill="#c9d1d9" opacity="0">k<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.64s" fill="freeze"/></text>
+<text x="103.1" y="141" fill="#8b949e" opacity="0">:<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.67s" fill="freeze"/></text>
+<text x="117.7" y="141" fill="#8b949e" opacity="0">[<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.73s" fill="freeze"/></text>
+<text x="125.0" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.76s" fill="freeze"/></text>
+<text x="132.3" y="141" fill="#a5d6ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.78s" fill="freeze"/></text>
+<text x="139.6" y="141" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.81s" fill="freeze"/></text>
+<text x="146.9" y="141" fill="#a5d6ff" opacity="0">x<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.84s" fill="freeze"/></text>
+<text x="154.2" y="141" fill="#a5d6ff" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.87s" fill="freeze"/></text>
+<text x="161.5" y="141" fill="#a5d6ff" opacity="0">.<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.90s" fill="freeze"/></text>
+<text x="168.8" y="141" fill="#a5d6ff" opacity="0">j<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.92s" fill="freeze"/></text>
+<text x="176.1" y="141" fill="#a5d6ff" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.95s" fill="freeze"/></text>
+<text x="183.4" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.98s" fill="freeze"/></text>
+<text x="190.7" y="141" fill="#8b949e" opacity="0">,<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.01s" fill="freeze"/></text>
+<text x="205.3" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.06s" fill="freeze"/></text>
+<text x="212.6" y="141" fill="#a5d6ff" opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.09s" fill="freeze"/></text>
+<text x="219.9" y="141" fill="#a5d6ff" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.12s" fill="freeze"/></text>
+<text x="227.2" y="141" fill="#a5d6ff" opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.15s" fill="freeze"/></text>
+<text x="234.5" y="141" fill="#a5d6ff" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.18s" fill="freeze"/></text>
+<text x="241.8" y="141" fill="#a5d6ff" opacity="0">v<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.20s" fill="freeze"/></text>
+<text x="249.1" y="141" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.23s" fill="freeze"/></text>
+<text x="256.4" y="141" fill="#a5d6ff" opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.26s" fill="freeze"/></text>
+<text x="263.7" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.29s" fill="freeze"/></text>
+<text x="271.0" y="141" fill="#8b949e" opacity="0">,<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.32s" fill="freeze"/></text>
+<text x="285.6" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.37s" fill="freeze"/></text>
+<text x="292.9" y="141" fill="#a5d6ff" opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.40s" fill="freeze"/></text>
+<text x="300.2" y="141" fill="#a5d6ff" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.43s" fill="freeze"/></text>
+<text x="307.5" y="141" fill="#a5d6ff" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.46s" fill="freeze"/></text>
+<text x="314.8" y="141" fill="#a5d6ff" opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.48s" fill="freeze"/></text>
+<text x="322.1" y="141" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.51s" fill="freeze"/></text>
+<text x="329.4" y="141" fill="#8b949e" opacity="0">]<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.54s" fill="freeze"/></text>
+<text x="336.7" y="141" fill="#8b949e" opacity="0">,<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.57s" fill="freeze"/></text>
+<text x="66.6" y="162" fill="#c9d1d9" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.65s" fill="freeze"/></text>
+<text x="73.9" y="162" fill="#c9d1d9" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.68s" fill="freeze"/></text>
+<text x="81.2" y="162" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.71s" fill="freeze"/></text>
+<text x="88.5" y="162" fill="#c9d1d9" opacity="0">u<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.74s" fill="freeze"/></text>
+<text x="95.8" y="162" fill="#c9d1d9" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.76s" fill="freeze"/></text>
+<text x="103.1" y="162" fill="#8b949e" opacity="0">:<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.79s" fill="freeze"/></text>
+<text x="117.7" y="162" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.85s" fill="freeze"/></text>
+<text x="125.0" y="162" fill="#a5d6ff" opacity="0">u<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.88s" fill="freeze"/></text>
+<text x="132.3" y="162" fill="#a5d6ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.90s" fill="freeze"/></text>
+<text x="146.9" y="162" fill="#a5d6ff" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.96s" fill="freeze"/></text>
+<text x="154.2" y="162" fill="#a5d6ff" opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.99s" fill="freeze"/></text>
+<text x="161.5" y="162" fill="#a5d6ff" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.02s" fill="freeze"/></text>
+<text x="168.8" y="162" fill="#a5d6ff" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.04s" fill="freeze"/></text>
+<text x="183.4" y="162" fill="#a5d6ff" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.10s" fill="freeze"/></text>
+<text x="190.7" y="162" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.13s" fill="freeze"/></text>
+<text x="198.0" y="162" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.16s" fill="freeze"/></text>
+<text x="205.3" y="162" fill="#a5d6ff" opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.18s" fill="freeze"/></text>
+<text x="212.6" y="162" fill="#a5d6ff" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.21s" fill="freeze"/></text>
+<text x="227.2" y="162" fill="#a5d6ff" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.27s" fill="freeze"/></text>
+<text x="234.5" y="162" fill="#a5d6ff" opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.30s" fill="freeze"/></text>
+<text x="241.8" y="162" fill="#a5d6ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.32s" fill="freeze"/></text>
+<text x="249.1" y="162" fill="#a5d6ff" opacity="0">v<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.35s" fill="freeze"/></text>
+<text x="256.4" y="162" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.38s" fill="freeze"/></text>
+<text x="263.7" y="162" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.41s" fill="freeze"/></text>
+<text x="271.0" y="162" fill="#8b949e" opacity="0">,<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.44s" fill="freeze"/></text>
+<text x="66.6" y="183" fill="#c9d1d9" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.52s" fill="freeze"/></text>
+<text x="73.9" y="183" fill="#c9d1d9" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.55s" fill="freeze"/></text>
+<text x="81.2" y="183" fill="#c9d1d9" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.58s" fill="freeze"/></text>
+<text x="88.5" y="183" fill="#c9d1d9" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.60s" fill="freeze"/></text>
+<text x="95.8" y="183" fill="#c9d1d9" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.63s" fill="freeze"/></text>
+<text x="103.1" y="183" fill="#c9d1d9" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.66s" fill="freeze"/></text>
+<text x="110.4" y="183" fill="#8b949e" opacity="0">:<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.69s" fill="freeze"/></text>
+<text x="125.0" y="183" fill="#79c0ff" opacity="0">I<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.74s" fill="freeze"/></text>
+<text x="132.3" y="183" fill="#79c0ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.77s" fill="freeze"/></text>
+<text x="139.6" y="183" fill="#79c0ff" opacity="0">f<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.80s" fill="freeze"/></text>
+<text x="146.9" y="183" fill="#79c0ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.83s" fill="freeze"/></text>
+<text x="154.2" y="183" fill="#79c0ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.86s" fill="freeze"/></text>
+<text x="161.5" y="183" fill="#79c0ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.88s" fill="freeze"/></text>
+<text x="168.8" y="183" fill="#79c0ff" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.91s" fill="freeze"/></text>
+<text x="176.1" y="183" fill="#79c0ff" opacity="0">y<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.94s" fill="freeze"/></text>
+<text x="183.4" y="183" fill="#8b949e" opacity="0">,<animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.97s" fill="freeze"/></text>
+<text x="52.0" y="204" fill="#8b949e" opacity="0">}<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.00s" fill="freeze"/></text>
+<text x="59.3" y="204" fill="#8b949e" opacity="0">)<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.02s" fill="freeze"/></text>
+<text x="66.6" y="204" fill="#8b949e" opacity="0">;<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.05s" fill="freeze"/></text>
+<text x="52.0" y="246" fill="#ff7b72" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.08s" fill="freeze"/></text>
+<text x="59.3" y="246" fill="#ff7b72" opacity="0">w<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.11s" fill="freeze"/></text>
+<text x="66.6" y="246" fill="#ff7b72" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.14s" fill="freeze"/></text>
+<text x="73.9" y="246" fill="#ff7b72" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.16s" fill="freeze"/></text>
+<text x="81.2" y="246" fill="#ff7b72" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.19s" fill="freeze"/></text>
+<text x="95.8" y="246" fill="#c9d1d9" opacity="0">b<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.25s" fill="freeze"/></text>
+<text x="103.1" y="246" fill="#c9d1d9" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.28s" fill="freeze"/></text>
+<text x="110.4" y="246" fill="#c9d1d9" opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.30s" fill="freeze"/></text>
+<text x="117.7" y="246" fill="#c9d1d9" opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.33s" fill="freeze"/></text>
+<text x="125.0" y="246" fill="#8b949e" opacity="0">.<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.36s" fill="freeze"/></text>
+<text x="132.3" y="246" fill="#d2a8ff" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.39s" fill="freeze"/></text>
+<text x="139.6" y="246" fill="#d2a8ff" opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.42s" fill="freeze"/></text>
+<text x="146.9" y="246" fill="#d2a8ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.44s" fill="freeze"/></text>
+<text x="154.2" y="246" fill="#d2a8ff" opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.47s" fill="freeze"/></text>
+<text x="161.5" y="246" fill="#8b949e" opacity="0">(<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.50s" fill="freeze"/></text>
+<text x="168.8" y="246" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.53s" fill="freeze"/></text>
+<text x="176.1" y="246" fill="#a5d6ff" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.56s" fill="freeze"/></text>
+<text x="183.4" y="246" fill="#a5d6ff" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.58s" fill="freeze"/></text>
+<text x="190.7" y="246" fill="#a5d6ff" opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.61s" fill="freeze"/></text>
+<text x="198.0" y="246" fill="#a5d6ff" opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.64s" fill="freeze"/></text>
+<text x="205.3" y="246" fill="#a5d6ff" opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.67s" fill="freeze"/></text>
+<text x="212.6" y="246" fill="#a5d6ff" opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.70s" fill="freeze"/></text>
+<text x="219.9" y="246" fill="#a5d6ff" opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.72s" fill="freeze"/></text>
+<text x="227.2" y="246" fill="#a5d6ff" opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.75s" fill="freeze"/></text>
+<text x="234.5" y="246" fill="#a5d6ff" opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.78s" fill="freeze"/></text>
+<text x="249.1" y="246" fill="#a5d6ff" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.84s" fill="freeze"/></text>
+<text x="256.4" y="246" fill="#a5d6ff" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.86s" fill="freeze"/></text>
+<text x="263.7" y="246" fill="#a5d6ff" opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.89s" fill="freeze"/></text>
+<text x="271.0" y="246" fill="#a5d6ff" opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.92s" fill="freeze"/></text>
+<text x="278.3" y="246" fill="#a5d6ff" opacity="0">"<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.95s" fill="freeze"/></text>
+<text x="285.6" y="246" fill="#8b949e" opacity="0">)<animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.98s" fill="freeze"/></text>
+<text x="292.9" y="246" fill="#8b949e" opacity="0">;<animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.00s" fill="freeze"/></text>
+<rect class="cur" x="0" y="0" width="7" height="14" fill="#3ddc84" opacity="0.85" transform="translate(52 67)">
+<animateTransform attributeName="transform" type="translate" to="344 67" dur="0.01s" begin="1.72s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="52 88" dur="0.01s" begin="1.72s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="249 109" dur="0.01s" begin="2.48s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="344 130" dur="0.01s" begin="3.60s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="278 151" dur="0.01s" begin="4.46s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="191 172" dur="0.01s" begin="5.00s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="74 193" dur="0.01s" begin="5.08s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="52 214" dur="0.01s" begin="5.08s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" to="300 235" dur="0.01s" begin="6.03s" fill="freeze"/>
+<animate attributeName="opacity" values="0.85;0" dur="0.3s" begin="6.43s" fill="freeze"/></rect>
+<line x1="1" y1="268" x2="443" y2="268" stroke="#1c2530"/>
+<text x="24" y="284" font-size="11" fill="#3ddc84" opacity="0">&#10003; no type errors<animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.53s" fill="freeze"/></text>
+<text x="420" y="284" font-size="11" text-anchor="end" fill="#8b949e" opacity="0">TypeScript · UTF-8 · &#9889; vercel<animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.73s" fill="freeze"/></text>
+</g></svg>
