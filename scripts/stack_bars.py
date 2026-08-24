@@ -26,8 +26,14 @@ COLORS = {
     "CSS": "#663399", "Python": "#3572A5", "C#": "#178600", "PHP": "#4F5D95",
     "Blade": "#f7523f", "SCSS": "#c6538c", "Shell": "#89e051",
     "C++": "#f34b7d", "C": "#555555", "PLpgSQL": "#336790",
+    "PHP · Laravel": "#FF2D20",
 }
 TOP_N = 5
+
+# HTML şablon gürültüsü, grafikte istenmiyor
+EXCLUDE = {"HTML"}
+# Private repolardaki iş (Befior CRM) linguist'te görünmüyor; sabit ağırlıkla temsil et
+MANUAL = {"PHP · Laravel": 250_000}
 
 
 def api(path):
@@ -47,9 +53,12 @@ def fetch():
         if repo["name"] == USER or repo.get("fork"):
             continue  # profil reposunu ve fork'ları sayma
         for lang, n in api(f"/repos/{USER}/{repo['name']}/languages").items():
-            totals[lang] = totals.get(lang, 0) + n
+            if lang not in EXCLUDE:
+                totals[lang] = totals.get(lang, 0) + n
     if not totals:
         raise SystemExit("dil verisi alınamadı")
+    for lang, n in MANUAL.items():
+        totals[lang] = totals.get(lang, 0) + n
     return totals
 
 
