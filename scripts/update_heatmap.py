@@ -4,6 +4,7 @@
 Token gerekmez: github.com/users/<user>/contributions HTML endpoint'i parse edilir.
 Sadece stdlib kullanır; GitHub Actions'ta günlük çalışır.
 """
+import hashlib
 import json
 import re
 import urllib.request
@@ -18,7 +19,16 @@ OUT = ROOT / "assets" / "contrib-heatmap.svg"
 BG = "#0b0f14"
 TEXT = "#8b949e"
 TITLE = "#c9d1d9"
-LEVELS = ["#1e2833", "#0e4429", "#006d32", "#26a641", "#39d353"]
+LEVELS = ["#14271c", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
+# boş günler için dekoratif yeşil doku (tarihe göre deterministik,
+# gerçek katkı hücrelerinden daha sönük tonlar)
+DECO = ["#14271c", "#173722", "#1b4a2c", "#20603a"]
+
+
+def deco_fill(date_str):
+    h = int(hashlib.md5(date_str.encode()).hexdigest()[:8], 16) % 100
+    return DECO[0] if h < 45 else DECO[1] if h < 75 else DECO[2] if h < 92 else DECO[3]
 
 # yılan animasyonu zamanlaması
 SNAKE_START = 2.6   # giriş dalgası bittikten sonra başla
@@ -117,7 +127,7 @@ def render(days):
             x = PAD_L + wi * (CELL + GAP)
             y = PAD_T + wd * (CELL + GAP)
             begin = wi * 0.028 + wd * 0.055
-            c = LEVELS[d["level"]]
+            c = LEVELS[d["level"]] if d["level"] > 0 else deco_fill(d["date"])
             cell = (
                 f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" fill="{c}" opacity="0">'
                 f'<animate attributeName="opacity" values="0;1" dur="0.35s" begin="{begin:.2f}s" fill="freeze"/>'
