@@ -390,6 +390,7 @@
 <rect x="762" y="82" width="11" height="11" rx="2.5" fill="#14271c" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.62s" fill="freeze"/></rect>
 <rect x="762" y="96" width="11" height="11" rx="2.5" fill="#20603a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.68s" fill="freeze"/></rect>
 <rect x="762" y="110" width="11" height="11" rx="2.5" fill="#1b4a2c" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.73s" fill="freeze"/></rect>
+<rect x="762" y="124" width="11" height="11" rx="2.5" fill="#14271c" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.79s" fill="freeze"/></rect>
 <rect class="eat" x="34" y="40" width="11" height="11" rx="2.5" fill="#0b0f14" opacity="0"><animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.0010;0.1378" calcMode="discrete" dur="19.0s" begin="2.6s" repeatCount="indefinite"/></rect>
 <rect class="eat" x="34" y="54" width="11" height="11" rx="2.5" fill="#0b0f14" opacity="0"><animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.0027;0.1395" calcMode="discrete" dur="19.0s" begin="2.6s" repeatCount="indefinite"/></rect>
 <rect class="eat" x="34" y="68" width="11" height="11" rx="2.5" fill="#0b0f14" opacity="0"><animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.0054;0.1422" calcMode="discrete" dur="19.0s" begin="2.6s" repeatCount="indefinite"/></rect>
